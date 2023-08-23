@@ -10,6 +10,11 @@ The realization of ROS client is referred to the github repository as follows:
 2. [java_websocket](https://github.com/TooTallNate/Java-WebSocket.git)
 3. json-simple
 
+<p align="center">
+  <img src="https://github.com/lucienyoung/blind-navigation-app/assets/137718915/b47a9602-d68f-46ea-adff-524a792d1f08" />
+</p>
+
+
 # How to use:
 1. If you haven't installed the ROS server at your PC beforehand, please run
 ```
