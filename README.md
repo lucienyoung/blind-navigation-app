@@ -28,7 +28,7 @@ The realization of ROS client is referred to the github repository as follows:
 
 3. Make sure the IP address and port number of the ROS server at your PC in accordance with that of ROS client embedded in your Android App.
 
-4. Input your IP address and port number at the text bars and click the connect botton to establish the connection.
+4. Input your IP address and port number at the text bars and click the ***connect*** botton to establish the connection.
 
 <p align="center">
   <img width="443" height="240" src="https://github.com/lucienyoung/blind-navigation-app/assets/137718915/1ee29dd9-38d0-46c7-a221-05472b6682b6" />
