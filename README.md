@@ -31,7 +31,7 @@ The realization of ROS client is referred to the github repository as follows:
 4. Input your IP address and port number at the text bars and click the connect botton to establish the connection.
 
 <p align="center">
-  <img width="416" height="225" src="https://github.com/lucienyoung/blind-navigation-app/assets/137718915/d7ae9478-c1c3-49d1-a24f-1193defbf0b8" />
+  <img width="443" height="240" src="https://github.com/lucienyoung/blind-navigation-app/assets/137718915/d7ae9478-c1c3-49d1-a24f-1193defbf0b8" />
 </p>
 
 >To build a successful communication, we first launch a ROS server at the PC, which will create a WebSocket proxy under the current IP address at port 9090. The Android end should listen to the same IP address and port so as to connect to the server. Once the connection is successfully established, the user interface will jump to the navigation panel, ready to navigate. The system has two working modes, one is for recording and another for navigation. Note that these two modes cannot work together; we disabled relevant functions in one when another is working in case any mistouching happens. For convenience, we provide text input to specify the goal name when recording. The record button determines whether or not to subscribe to the odometry topic, while the upload button provides the database insertion function. We also provide the reset function for the goal database, it just needs to input the reset into the text input box, but this operation is dangerous since it will clear all recordings.
