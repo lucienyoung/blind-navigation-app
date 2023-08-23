@@ -9,9 +9,9 @@ The realization of ROS client is referred to the github repository as follows:
 2. [java_websocket](https://github.com/TooTallNate/Java-WebSocket.git)
 3. json-simple
 
-# How to use
+# How to use:
 1. Launch a ROS server at the PC terminal. To launch the file, run:
 
-    'roslaunch rosbridge_server rosbridge_websocket.launch'
+    '<roslaunch rosbridge_server rosbridge_websocket.launch>'
 
 2. Make sure the IP address and port number of the ROS server at your PC in accordance with that of ROS client embedded in your Android App. Input your IP address and port number at the text bars and click the connect botton to establish the connection.
