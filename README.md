@@ -41,7 +41,7 @@ The realization of ROS client is referred to the github repository as follows:
 >Unlike the robot, visually impaired people cannot follow a planned path even when given precise commands. It is inappropriate to set a timer to output navigation commands continuously. On the one hand, it remains unknown how long the interval should be to guarantee safe navigation in real-world tasks since the walking behaviors vary for each blind user. On the other hand, intensive navigation commands will pose too many cognitive loads on users and sometimes may even mislead them. In this regard, we design an interacting button for blind people so that they can decide when to receive the navigation prompts. At last, the system also allows users to inquire how far their current location is from their destination, giving them a global sense of orientation.  
 
 <p align="center">
-  <img src="https://github.com/lucienyoung/blind-navigation-app/assets/137718915/615052d5-7ab9-4909-b93c-b3c712ce9d7c" />
+  <img width="475" height="75" src="https://github.com/lucienyoung/blind-navigation-app/assets/137718915/615052d5-7ab9-4909-b93c-b3c712ce9d7c" />
 </p>
 
 >In order to send goals and receive navigation commands, we need to realize the communication between the PC and Android smartphone. In addition, the navigation goals need to be stored in advance for users to retrieve through speech input. In this regard, we build a SQLite database to store the position and orientation of any traversed key points. Given that we assume that the system navigates blind users on the same floor, we only record the 2D pose of each point of interest. The frame ID is also important, which indicates a pose is seen from which coordinate system.
