@@ -11,7 +11,7 @@ The realization of ROS client is referred to the github repository as follows:
 3. json-simple
 
 <p align="center">
-  <img src="https://github.com/lucienyoung/blind-navigation-app/assets/137718915/b47a9602-d68f-46ea-adff-524a792d1f08" />
+  <img width="404" height="265" src="https://github.com/lucienyoung/blind-navigation-app/assets/137718915/b47a9602-d68f-46ea-adff-524a792d1f08" />
 </p>
 
 
