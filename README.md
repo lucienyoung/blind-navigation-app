@@ -5,8 +5,8 @@ The realization of ROS client is referred to the github repository as follows:
 2. [RosClient](https://github.com/hibernate2011/RosClient.git)
 
 # Required library:
-1. EventBus
-2. java_websocket
+1. [EventBus](https://github.com/greenrobot/EventBus.git)
+2. [java_websocket](https://github.com/TooTallNate/Java-WebSocket.git)
 3. json-simple
 
 # How to use
