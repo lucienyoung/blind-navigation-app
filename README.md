@@ -8,7 +8,7 @@ The realization of ROS client is referred to the github repository as follows:
 # Required library:
 1. [EventBus](https://github.com/greenrobot/EventBus.git)
 2. [java_websocket](https://github.com/TooTallNate/Java-WebSocket.git)
-3. json-simple
+3. [json-simple](http://code.google.com/p/json-simple/)
 
 <p align="center">
   <img width="404" height="265" src="https://github.com/lucienyoung/blind-navigation-app/assets/137718915/b47a9602-d68f-46ea-adff-524a792d1f08" />
