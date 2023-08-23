@@ -21,4 +21,5 @@ The realization of ROS client is referred to the github repository as follows:
     roslaunch rosbridge_server rosbridge_websocket.launch
 ```  
 
-3. Make sure the IP address and port number of the ROS server at your PC in accordance with that of ROS client embedded in your Android App. Input your IP address and port number at the text bars and click the connect botton to establish the connection.
+3. Make sure the IP address and port number of the ROS server at your PC in accordance with that of ROS client embedded in your Android App.
+4. Input your IP address and port number at the text bars and click the connect botton to establish the connection.
