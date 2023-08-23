@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Blind Navigation</string>
+    <string name="text_nav_main">BLIND NAVIGATION SYSTEM</string>
+    <string name="text_nav_affiliate">Begin to navigate</string>
+    <string name="ip_default">192.168.46.3</string>
+    <string name="ip_hint">Please input master IP</string>
+    <string name="port_default">9090</string>
+    <string name="port_hint">Input port number, default 9090</string>
+    <string name="connect_btn">Connect</string>
+    <string name="navigation_btn">Navigate</string>
+    <string name="record_btn">Record</string>
+    <string name="goal_btn">Goal</string>
+    <string name="record_hint">Please input your goal name to record</string>
+    <string name="reset_hint">(Warning: If resetting database, please input reset)</string>
+    <string name="inquire_btn">Inquiry</string>
+    <string name="interact_btn">Interacting</string>
+    <string name="database_btn">Upload</string>
+</resources>

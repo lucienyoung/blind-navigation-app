@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".ui.NavigationActivity">
+
+    <EditText android:id="@+id/et_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="@string/record_hint"/>
+
+    <TextView android:id="@+id/tv_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:hint="@string/reset_hint"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <Button
+            android:id="@+id/btn_nav"
+            android:layout_width="192dp"
+            android:layout_height="192dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:enabled="false"
+            android:text="@string/navigation_btn"
+            android:textAllCaps="false"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="192dp"
+            android:layout_height="192dp"
+            android:orientation="vertical">
+
+            <Button android:id="@+id/btn_record"
+                android:layout_width="192dp"
+                android:layout_height="96dp"
+                android:text="@string/record_btn"
+                android:textSize="25sp"
+                android:textAllCaps="false"
+                android:enabled="false"/>
+
+            <Button android:id="@+id/btn_database"
+                android:layout_width="192dp"
+                android:layout_height="96dp"
+                android:text="@string/database_btn"
+                android:textSize="25sp"
+                android:textAllCaps="false"
+                android:enabled="false" />
+
+        </LinearLayout>
+
+
+
+        <Button android:id="@+id/btn_goal"
+            android:layout_width="192dp"
+            android:layout_height="192dp"
+            android:text="@string/goal_btn"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:enabled="false"/>
+
+        <Button android:id="@+id/btn_inquire"
+            android:layout_width="192dp"
+            android:layout_height="192dp"
+            android:text="@string/inquire_btn"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:enabled="false"/>
+
+    </GridLayout>
+
+    <Button android:id="@+id/btn_interact"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:text="@string/interact_btn"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:enabled="false"/>
+
+</LinearLayout>
