@@ -16,7 +16,7 @@ The realization of ROS client is referred to the github repository as follows:
     roslaunch rosbridge_server rosbridge_websocket.launch
 ```
 
-    If you haven't installed the ROS server at your PC beforehand, please run
+        If you haven't installed the ROS server at your PC beforehand, please run
 ```
     sudo apt-get install ros-<rosdistro>-rosbridge-server
 ```
