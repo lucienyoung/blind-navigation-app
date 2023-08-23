@@ -11,14 +11,14 @@ The realization of ROS client is referred to the github repository as follows:
 3. json-simple
 
 # How to use:
-1. Launch a ROS server at the PC terminal. To launch the file, run:
-```
-    roslaunch rosbridge_server rosbridge_websocket.launch
-```  
-
-If you haven't installed the ROS server at your PC beforehand, please run
+1. If you haven't installed the ROS server at your PC beforehand, please run
 ```
     sudo apt-get install ros-<rosdistro>-rosbridge-server
 ```
 
-2. Make sure the IP address and port number of the ROS server at your PC in accordance with that of ROS client embedded in your Android App. Input your IP address and port number at the text bars and click the connect botton to establish the connection.
+2. Launch a ROS server at the PC terminal. To launch the file, run:
+```
+    roslaunch rosbridge_server rosbridge_websocket.launch
+```  
+
+3. Make sure the IP address and port number of the ROS server at your PC in accordance with that of ROS client embedded in your Android App. Input your IP address and port number at the text bars and click the connect botton to establish the connection.
